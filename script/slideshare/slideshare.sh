@@ -6,5 +6,5 @@ for i in `cat tem.html |grep data-full|egrep -o 'https?://[^ ]+'|sed s/\"//g`;do
 #	echo $i
 	echo " <img src=\"$i\"<br>" >> file_temp.html
 done
-/usr/local/wkhtmltox/bin/wkhtmltopdf file_temp.html /home/tantro/www/test_code/pdf/${name}.pdf
-echo "File name : /home/tantro/www/test_code/pdf/${name}.pdf"
+/usr/local/wkhtmltox/bin/wkhtmltopdf file_temp.html pdf/${name}.pdf
+echo "File name : pdf/${name}.pdf"
