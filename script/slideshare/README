@@ -1,0 +1,5 @@
+## system51075@gmail.com
+- Script get file from slideshare.net
+- Use wkhtmltopdf convert to pdf
+- Use: sh slideshare.sh $LINK_slideshare.net
+- Example: sh slideshare.sh https://www.slideshare.net/AnuragShrivastava7/hadoop-security-features
